@@ -1,0 +1,94 @@
+.shop1 button{
+    position: absolute;
+    top: 28%;
+    right: 10%;
+    padding: 15px;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.shop2 button {
+    position: absolute;
+    top: 64%;
+    right: 10%;
+    padding: 15px;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: transparent
+}
+.shop3 button {
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    padding: 15px;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: transparent
+}
+.shop4 button {
+    position: absolute;
+    top: 135%;
+    right: 10%;
+    padding: 15px;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: transparent
+}
+
+.hero-section1 button:hover{
+   color: blue;
+   border-color: blue;
+   cursor: pointer;
+}
+.box-chart{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 20px;
+    justify-content: center;
+    margin: 50px 10px;
+}
+#heading{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 30px;
+}
+.box img{
+    flex: 1 1 500px;
+    max-width: 480px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.box p{
+ background-color: #d0e3f1;
+ padding: 10px;
+ text-align: center;
+ border-radius: 0px 0px 10px 10px;
+ font-size: large;
+}
+
+.box a{
+    text-decoration: none;
+}
+
+.box p:hover{
+    background-color: #2CD3E1;
+}
+
+.hero-section1 {
+    margin-top: 97px;
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+.box:hover{
+    transform: translateY(-15px);
+}
+.box{
+    transition: transform 0.3s;
+}
+.hero-section1 img{
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 5px;
+}

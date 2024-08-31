@@ -1,0 +1,39 @@
+.section{
+    margin-top: 100px;
+    background-color: white;
+    display: flex;
+    gap: 30px  200px;
+    padding: 2em;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section p{
+    text-align: center;
+}
+.all{
+    color: darkgray;
+    font-size: small;  
+    font-weight: lighter;
+}
+.name{
+    font-size: small;
+    font-weight: bold;
+}
+.price{
+    color: rgb(1, 110, 1);
+    font-size: small;
+    font-weight: lighter ;
+}
+.details{
+    padding:.5em;
+    line-height: 12px;  
+}
+
+.box-chart:hover{
+    transform: translateY(-20px);
+}
+.box-chart{
+    transition: transform 0.3s;
+}
